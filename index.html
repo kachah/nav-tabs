@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <h2>EXERCICE sur les Tabs </h2>
+        <div class="card">
+            <div class="card-header">
+                <p> NAV/ NAV-TABS ||| TAB-CONTENT TAB-PANE </p>
+            </div>
+<!-- Tab links -->
+                <div class="card-body">
+                    <div class="tab">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#home" href="#"> HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#profil" href="#"> Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"> Messages </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"> Setting </a>
+                            </li>
+                        </ul>
+                    </div>
+
+<!-- Tab content -->
+                        <div class="tabcontent" > 
+                            <div class="tab-pane active" id="home"> hommme </div>
+                        </div>
+                        <div class="tabcontent">
+                            <div class="tab-pane active" id="profil"> profile </div>
+                        </div>
+        
+                </div>    
+        </div>
+    </div>
+    
+    <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
